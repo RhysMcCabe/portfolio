@@ -23,3 +23,9 @@ body {
 .head-row{
     background-color: rgb(175,122,56);
 }
+
+.nav-bar {
+    position:sticky;
+    
+    
+}

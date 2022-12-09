@@ -7,36 +7,51 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
     <link href="https://fonts.cdnfonts.com/css/fredoka-one" rel="stylesheet">
+    <script src="./index.js"></script>
     <script src="https://kit.fontawesome.com/1a9476a3f2.js" crossorigin="anonymous"></script>
     <title>Rhys McCabe</title>
 </head>
 <body class="bg-dark">
     <!--Heading-->
     <div class="container mt-5">
-      <div class="row head-row text-white rounded-bottom p-3">
-        <div class="col-3 profile-img">
+      <div class="row head-row text-white rounded-bottom ps-3 py-3">
+        <div class="col-3 profile-img ms-5">
           <img src="./imgs/profile_img.JPG" alt="profile-img">
         </div>
-        <div class="col-8 text-center px-5">
+        <div class="col-7 text-center px-5">
           <p class="display-1">Rhys McCabe</p>
           <p class="h5">
             Software Developer
           </p>
         </div>
         <!--Links-->
-        <div class="col-1 ms-5 text-center display-5">
-          <div class="row" data-toggle="tooltip" data-placement="top" title="LinkedIn">
-            <a href="https://www.linkedin.com/in/rhys-mccabe/"><i class="fa-brands fa-linkedin text-dark"></i></a> 
+        <div class="col-2 ms-5 text-center display-5">
+          <div class="row mb-2">
+            <div class="col-6" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+              <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/"><i class="fa-brands fa-linkedin text-dark"></i></a> 
+            </div>
+            <div class="col-6" data-toggle="tooltip" data-placement="top" data-bs-toggle="modal" data-bs-target="#exampleModal" title="Email">
+              <a target="_blank"><i class="fa-solid fa-at text-dark"></i></a> 
+            </div>
           </div>
-          <div class="row p-3" data-toggle="tooltip" data-placement="top" title="Download CV">
-            <a href=""><i class="fa-solid fa-file text-dark"></i></a>
+
+          <div class="row">
+            <div class="col-6 " data-toggle="tooltip" data-placement="top" title="Github">
+              <a target="_blank" href="https://github.com/RhysMcCabe"><i class="fa-brands fa-github text-dark"></i></a> 
+            </div>
+            <div class="col-6" data-toggle="tooltip" data-placement="top" title="View resume">
+              <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/"><i class="fa-solid fa-file text-dark"></i></a>            </div>
+            
           </div>
+          
         </div>
       </div>
 
+      
+
       <!--Navbar-->
       <div class="nav-bar row">
-        <nav id="navbar-example2" class="navbar navbar-light bg-light fixed-top ">
+        <nav id="navbar-example2" class="navbar navbar-light bg-white">
           <ul class="nav nav-pills mx-auto">
             <li class="nav-item">
               <a class="nav-link text-dark" href="#edu">Education</a>
@@ -56,7 +71,7 @@
       </div>
 
       
-      <div data-spy="scroll" data-target="#navbar-example2" data-offset="100px" class="text-white">
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" class="text-white">
         <h1 id="edu">Education</h1>
         <p>Education....</p>
         <p>Education....</p>
@@ -82,8 +97,26 @@
       </div>
 
 
-
     
+  </div>
+     <!-- Email Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact me</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p id="email">
+          rhys.mccabe@hotmail.com
+        </p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-bs-dismiss="modal" onclick="copyEmail()" class="btn btn-primary">Copy to Clipboard</button>
+      </div>
+    </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
