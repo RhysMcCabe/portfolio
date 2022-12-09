@@ -1,0 +1,25 @@
+body {
+    font-family: 'Fredoka One', sans-serif;
+}
+
+
+.profile-img{
+
+    position: relative; 
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    
+}
+
+.profile-img img {
+     width: 140%; 
+     height: auto; 
+     margin-left: -10px;
+     margin-top: -50px;
+    }
+
+.head-row{
+    background-color: rgb(175,122,56);
+}
