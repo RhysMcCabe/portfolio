@@ -14,7 +14,7 @@
 <body class="bg-dark">
     <!--Heading-->
     <div class="container">
-      <div class="row head-row text-white rounded-top ps-3 py-3 mt-5">
+      <div class="row head-row text-white rounded-top ps-3 py-3">
         <div class="col-3 profile-img ms-5">
           <img src="./imgs/profile_img.JPG" alt="profile-img">
         </div>
@@ -50,18 +50,18 @@
       
 
       <!--Navbar-->
-        <nav id="navbar-example2" class="navbar navs navbar-light bg-light px-3 row row sticky-top rounded-bottom text-center">
+        <nav id="navbar-example2" class="navbar navs navbar-light bg-light px-3 mb-5 row row sticky-top rounded-bottom text-center">
           <ul class="nav">
-            <li class="nav-item col-3 rounded">
+            <li class="nav-item col-md-3 col-12 rounded">
               <a class="nav-link" href="#status">Status</a>
             </li>
-            <li class="nav-item col-3 rounded">
+            <li class="nav-item col-md-3 col-12 rounded">
               <a class="nav-link" href="#exp">Experience</a>
             </li>
-            <li class="nav-item col-3 rounded">
+            <li class="nav-item col-md-3 col-12 rounded">
               <a class="nav-link" href="#edu">Education</a>
             </li>
-            <li class="nav-item col-3 rounded">
+            <li class="nav-item col-md-3 col-12 rounded">
               <a class="nav-link" href="#proj">Projects</a>
             </li>
           
@@ -72,8 +72,8 @@
     <!--Status-->   
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="text-white scrollspy-example" tabindex="0"> 
         <small id="status" class="text-dark">status</small> 
-        <h1 class="text-center text-muted mt-5">Status</h1> 
-          <div class="row text-dark">
+        <h1 class="text-center mt-5">Status</h1> 
+          <div class="row text-dark mb-5">
 
             <div class="col-2 text-center">
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -89,20 +89,20 @@
                       <div class="card-body">
                         <h5 class="card-title">Employment Status</h5>
                         <div class="row">
-                        <div class="col-9 mb-3">
+                        <div class="col-8 mx-auto my-3">
                           <ul class="list-group card-text">
                             <li class="list-group-item disabled">Not seeking employment</li>
                             <li class="list-group-item">Currently in contract with Workday</li>
                             <li class="list-group-item">Completed 6 month Internship Aug 2022</li>
                             <li class="list-group-item">Will be returning to a Graduate Role in Sep 2023</li>
+                            <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/" class="btn btn-primary w-50 mx-auto mt-4">Contact me</a>
 
                           </ul>
                         </div>
-                        <div class="col-3 mx-auto">
-                          <a target="_blank" href="https://www.workday.com/en-us/company/careers/early-career.html"><img class="card-img rounded-circle p-3" src="./imgs/workday.png" alt="TUD"></a>
+                        <div class="col-3">
+                          <a target="_blank" href="https://www.workday.com/en-us/company/careers/early-career.html"><img class="card-img rounded-circle" src="./imgs/workday.png" alt="workday"></a>
                         </div>
                       </div>
-                        <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/" class="btn btn-warning">Contact me</a>
                       </div>
                   </div>
                   </div>
@@ -111,18 +111,20 @@
                       <div class="card-body">
                         <h5 class="card-title">Education Status</h5>
                         <div class="row">
-                          <div class="col-9 mb-3">
+                          <div class="col-8 mx-auto my-3">
                             <ul class="list-group card-text">
                               <li class="list-group-item disabled">Not seeking further education</li>
                               <li class="list-group-item">BSc Computing with Software Development</li>
                               <li class="list-group-item">Technological University Dublin - Tallaght Campus</li>
                               <li class="list-group-item">Final year of studies</li>
+                              <a href="#edu" class="btn btn-primary w-50 mx-auto mt-4">Read More</a>
                           </div>
-                        <div class="col-3 mx-auto">
-                          <a target="_blank" href="https://www.tudublin.ie/study/undergraduate/courses/computing-general-entrytu859/"><img class="card-img rounded-circle p-3" src="./imgs/TUD.png" alt="TUD"></a>
+                          
+                        <div class="col-3">
+                          <a target="_blank" href="https://www.tudublin.ie/study/undergraduate/courses/computing-general-entrytu859/"><img class="card-img rounded-circle" src="./imgs/TUD.png" alt="TUD"></a>
                         </div>
                         </div>
-                        <a href="#edu" class="btn btn-warning">Read More</a>
+                        
                     </div>
                   </div>            
                 </div>   
@@ -139,10 +141,8 @@
         </div>
         <!--Experience-->
           <small id="exp" class="text-dark">exp</small>
-          <h1 class="text-muted mt-5 text-center">Experience</h1>
-          <div class="text-white text-center mt-5">
-            <h3>Tools & Technology</h3>
-          </div>
+          <h1 class="text-white mt-5 text-center">Experience</h1>
+          
           <div class="row">
           <p>
             <div class="col-4 text-center">
@@ -217,89 +217,128 @@
               </div>
             </div>
           </div>
-          <div class="text-white text-center mt-5 col-8">
-            <h3>Languages</h3>
-          </div>
-          <div class="row text-white">
+         
+          <div class="row text-white mt-5">
             <div class="col-6">
-              <div class="row mt-3 ">
+              <div class="row mt-3 py-5">
                 <div class="col-4 h5">
                   Javascript
                 </div>
-                <div class="col-8">
+                <div class="col-md-8">
                   <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
                   </div>
                 </div>
               </div>
     
-              <div class="row">
+              <div class="row py-5">
                 <div class="col-4 h5">
                   Python
                 </div>
-                <div class="col-8">
+                <div class="col-md-8">
                   <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
                   </div>
                 </div>
               </div>
     
-              <div class="row ">
+              <div class="row py-5">
                 <div class="col-4 h5">
                   C#
                 </div>
-                <div class="col-8">
+                <div class="col-md-8">
                   <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                   </div>
                 </div>
               </div>
-              <div class="row ">
+              <div class="row py-5">
                 <div class="col-4 h5">
                   C++
                 </div>
-                <div class="col-8">
+                <div class="col-md-8">
                   <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-6 text-dark">
+            <div class="col-md-6 mt-5 text-dark">
               <div class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      Accordion Item #1
+                    <button class="accordion-button text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      
+                      <div class="row">
+                        <div class="col-2">
+                    <img class="card-img rounded-circle" src="./imgs/workday.png" alt="workday">
+                        </div>
+                        <div class="col-10 h4 mt-3">
+                          <p>Workday</p>
+                        </div>
+                      </div>
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <p>Completed a 6 month internship in August 2022. I was integrated into a development team in Financials (Spend Management).</p>
+                      <p>I recieved training for Workday's proprietary systems, solved daily issues and participated in team meetings.</p>
+                      More information can be found in my resume <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/">here</a>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                      Accordion Item #2
+                    <button class="accordion-button collapsed text-info" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      <div class="row">
+                        <div class="col-6">
+                        <img class="card-img rounded-circle" src="./imgs/gbc.png" alt="gbc">
+                        </div>
+                        
+                      </div>
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
+                      <p>Part time, I am working with a client who wishes to transform their <a target="_blank" href="https://www.greystonesbouncycastles.com/">static website</a>, to an automated booking system. The system is close to production and will launch in March 2023.</p>     
+                      <p>The application is being built using a MERN stack:</p>
+                      <ul>
+                        <li>
+                          (M)ongoDB - Database
+                        </li>
+                        <li>
+                          (E)xpressJS - Web-app framework
+                        </li>
+                        <li>
+                          (R)eactJS - Client-side
+                        </li>
+                        <li>
+                          (N)odeJS - Javascript Runtime
+                        </li>
+                      </ul>
+                      More information can be found in my resume <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/">here</a>
+                      </div>
+                                        </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      Accordion Item #3
+                    <button class="accordion-button collapsed text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      <div class="row">
+                        <div class="col-3">
+                    <img class="card-img rounded-circle" src="./imgs/centra.jpg" alt="cengra">
+                        </div>
+                        <div class="col-8 h3 mt-3">
+                          <p>Centra</p>
+                        </div>
+                      </div>
                     </button>
                   </h2>
                   <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <p>Before returning to education, I worked full-time in Salmon's Centra Naas. <br/>I joined at 19 years old as a till operator. I worked my way up to supervisor, trainee manager and assistant manager.</p>
+                      <p>I decided to step down as assistant manager to pursue a career in software engineering. I stayed on as a weekend supervisor until I recieved an offer from Workday for an Internship. I was with the company from Feb 2015 - Nov 2021 (almost 7 years).</p>
+                      More information can be found in my resume <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/">here</a>
+
                     </div>
                   </div>
                 </div>
