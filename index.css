@@ -24,8 +24,26 @@ body {
     background-color: rgb(175,122,56);
 }
 
-.nav-bar {
-    position:sticky;
-    
+.navs > ul > li:hover  {
+    background-color: rgb(175,122,56);
     
 }
+
+.nav-link{
+   color: black;
+}
+
+.nav-link:hover{    
+    color: white;
+}
+
+.icon:hover{
+    background-color: white;
+
+}
+
+.card-body img:hover{
+    opacity: 90%;
+}
+
+

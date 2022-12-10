@@ -28,19 +28,19 @@
         <div class="col-2 ms-5 text-center display-5">
           <div class="row mb-2">
             <div class="col-6" data-toggle="tooltip" data-placement="top" title="LinkedIn">
-              <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/"><i class="fa-brands fa-linkedin text-dark"></i></a> 
+              <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/"><i class="fa-brands fa-linkedin text-dark icon rounded p-2"></i></a> 
             </div>
             <div class="col-6" data-toggle="tooltip" data-placement="top" data-bs-toggle="modal" data-bs-target="#exampleModal" title="Email">
-              <a target="_blank"><i class="fa-solid fa-at text-dark"></i></a> 
+              <a target="_blank"><i class="fa-solid fa-at text-dark icon rounded p-2"></i></a> 
             </div>
           </div>
 
           <div class="row">
             <div class="col-6 " data-toggle="tooltip" data-placement="top" title="Github">
-              <a target="_blank" href="https://github.com/RhysMcCabe"><i class="fa-brands fa-github text-dark"></i></a> 
+              <a target="_blank" href="https://github.com/RhysMcCabe"><i class="icon rounded p-2 fa-brands fa-github text-dark"></i></a> 
             </div>
             <div class="col-6" data-toggle="tooltip" data-placement="top" title="View resume">
-              <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/"><i class="fa-solid fa-file text-dark"></i></a>            </div>
+              <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/"><i class="icon rounded p-2 fa-solid fa-file text-dark"></i></a>            </div>
             
           </div>
           
@@ -50,70 +50,179 @@
       
 
       <!--Navbar-->
-        <nav id="navbar-example2" class="navbar navbar-light bg-light px-3 row row sticky-top rounded-bottom text-center">
+        <nav class="navbar navs navbar-light bg-light px-3 row row sticky-top rounded-bottom text-center">
           <ul class="nav">
-            <li class="nav-item col-3">
-              <a class="nav-link text-dark" href="#overview">Overview</a>
+            <li class="nav-item col-3 rounded">
+              <a class="nav-link" href="#status">Status</a>
             </li>
-            <li class="nav-item col-3">
-              <a class="nav-link text-dark" href="#edu">Education</a>
+            <li class="nav-item col-3 rounded">
+              <a class="nav-link" href="#exp">Experience</a>
             </li>
-            <li class="nav-item col-3">
-              <a class="nav-link text-dark" href="#exp">Experience</a>
+            <li class="nav-item col-3 rounded">
+              <a class="nav-link" href="#edu">Education</a>
             </li>
-            <li class="nav-item col-3">
-              <a class="nav-link text-dark" href="#skills">Skills</a>
+            <li class="nav-item col-3 rounded">
+              <a class="nav-link" href="#proj">Projects</a>
             </li>
           
           </ul>
         </nav>
     
-       
-      <div data-bs-spy="scroll" data-target="#navbar-example2" data-bs-offset="0" class="text-white scrollspy-example" tabindex="0">
-          <p id="overview" class="text-dark">Overview</p>
-          <h1 class="mt-5">Overview</h1>
-          <p>Currently in my final year studying 'Computing with Software Development' Bachelor in Science (Hons) Level 8</p>
+    <!--Status-->   
+      <div data-bs-spy="scroll" data-target="#navbar-example2" data-bs-offset="0" class="text-white scrollspy-example" tabindex="0"> 
+        <small id="status" class="text-dark">status</small>  
+        <h1 class="mt-5">Current Status</h1>
           <div class="row text-dark">
             <div class="col-sm-6 p-1">
               <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Current Employment Status</h5>
+                    <div class="row">
+                    <div class="col-9 mb-3">
+                      <ul class="list-group card-text">
+                        <li class="list-group-item disabled">Not seeking employment</li>
+                        <li class="list-group-item">Workday Graduate Software Engineer<br/><span class="small">Beginning September 2023</span>                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-3 mx-auto">
+                      <a target="_blank" href="https://www.workday.com/en-us/company/careers/early-career.html"><img class="card-img rounded-circle p-3" src="./imgs/workday.png" alt="TUD"></a>
+                    </div>
+                  </div>
+                    <a href="#exp" class="btn btn-warning">More</a>
+                  </div>
               </div>
             </div>
             <div class="col-sm-6 p-1">
               <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <div class="card-body">
+                    <h5 class="card-title">Current Education Status</h5>
+                    <div class="row">
+                    <div class="col-9 mb-3">
+                      <ul class="list-group card-text">
+                        <li class="list-group-item disabled">Not seeking further education</li>
+                        <li class="list-group-item">Final year of studies<br/><span class="small">Graduating September 2023</span>                        </li>
+                      
+                    </div>
+                    <div class="col-3 mx-auto">
+                      <a target="_blank" href="https://www.tudublin.ie/study/undergraduate/courses/computing-general-entrytu859/"><img class="card-img rounded-circle p-3" src="./imgs/TUD.png" alt="TUD"></a>
+                    </div>
+                  </div>
+                    <a href="#edu" class="btn btn-warning">More</a>
+            
+                </div>
+              
+                
+               
+              </div>
+            </div>
+            
+            </div>
+          </div>
+        <!--Experience-->
+          <small id="exp" class="text-dark">exp</small>
+          <h1 class="text-white text-center mt-5">Experience</h1>
+          <div class="row">
+          <p>
+            <div class="col-4 text-center">
+              <a class="btn btn-warning" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Front-End</a>
+            </div>
+            <div class="col-4 text-center">
+              <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Backend</button>
+            </div>
+            <div class="col-4 text-center">
+              <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample2">Database</button>
+            </div>
+          </p>
+        </div>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                  <div class="row">
+                  <div class="col-3">
+                    <img class="card-img" src="./imgs/html-css.png" alt="html-css"data-toggle="tooltip" data-placement="top" title="HTML/CSS">
+                  </div>
+                  <div class="col-3">
+                    <img class="card-img" src="./imgs/tailwindcss.jpeg" alt="tailwind-css"data-toggle="tooltip" data-placement="top" title="TailwindCSS">
+                  </div>
+                  <div class="col-3">
+                    <img class="card-img" src="./imgs/react.png" alt="reactjs" width="200%" data-toggle="tooltip" data-placement="top" title="ReactJS">
+                  </div>
+                  <div class="col-3">
+                    <img class="card-img" src="./imgs/blazor.png" alt="blazor"mdata-toggle="tooltip" data-placement="top" title="dotnet-Blazor">
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 p-1">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  <div class="row">
+                    <div class="col-3">
+                      <img class="card-img" src="./imgs/python.png" alt="pyton" data-toggle="tooltip" data-placement="top" title="Python3+">
+                    </div>
+                    <div class="col-3">
+                      <img class="card-img" src="./imgs/java.png" alt="java" data-toggle="tooltip" data-placement="top" title="Java">
+                    </div>
+                    <div class="col-3">
+                      <img class="card-img" src="./imgs/dotnet.png" alt="dotnet" data-toggle="tooltip" data-placement="top" title="Dontnet">
+                    </div>
+                    <div class="col-3">
+                      <img class="card-img" src="./imgs/nodejs.png" alt="nodejs" data-toggle="tooltip" data-placement="top" title="NodeJS">
+                    </div>
+                  </div>                
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 p-1">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample3">
+                <div class="card card-body">
+                  <div class="row">
+                    <div class="col-3">
+                      <img class="card-img" src="./imgs/mongo.png" alt="mongo" data-toggle="tooltip" data-placement="top" title="MongoDB">
+                    </div>
+                    <div class="col-3">
+                      <img class="card-img" src="./imgs/swl.jpg" alt="SQL" data-toggle="tooltip" data-placement="top" title="SQL Databases">
+                    </div>
+                    <div class="col-3">
+                      <img class="card-img" src="./imgs/NoSQL.jpg" alt="nosql" data-toggle="tooltip" data-placement="top" title="NoSQL Datatbases">
+                    </div>
+                  </div>                  </div>
               </div>
             </div>
           </div>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
+                <p>Experience...</p>
 
- 
-          <h1 id="edu" class="mt-5">Education</h1>
+                <small id="edu" class="text-dark">edu</small>
+          <h1 class="mt-5 text-white">Education</h1>
           <p>Education....</p>
           <p>Education....</p>
           <p>Education....</p>
@@ -133,38 +242,32 @@
           <p>Education....</p>
           <p>Education....</p>
           <p>Education....</p>
-        
-        
-          <h1 id="exp">Experirence</h1>
-          <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
+
+          <small id="proj" class="text-dark">proj</small>
+          <h1 class="text-white mt-5">Projects</h1>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+          <p>Projects...</p>
+
+                
       </div>
 
     
