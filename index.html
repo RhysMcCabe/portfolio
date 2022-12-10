@@ -50,7 +50,7 @@
       
 
       <!--Navbar-->
-        <nav class="navbar navs navbar-light bg-light px-3 row row sticky-top rounded-bottom text-center">
+        <nav id="navbar-example2" class="navbar navs navbar-light bg-light px-3 row row sticky-top rounded-bottom text-center">
           <ul class="nav">
             <li class="nav-item col-3 rounded">
               <a class="nav-link" href="#status">Status</a>
@@ -67,60 +67,82 @@
           
           </ul>
         </nav>
-    
+
+        
     <!--Status-->   
-      <div data-bs-spy="scroll" data-target="#navbar-example2" data-bs-offset="0" class="text-white scrollspy-example" tabindex="0"> 
-        <small id="status" class="text-dark">status</small>  
-        <h1 class="mt-5">Current Status</h1>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="text-white scrollspy-example" tabindex="0"> 
+        <small id="status" class="text-dark">status</small> 
+        <h1 class="text-center text-muted mt-5">Status</h1> 
           <div class="row text-dark">
-            <div class="col-sm-6 p-1">
-              <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Current Employment Status</h5>
-                    <div class="row">
-                    <div class="col-9 mb-3">
-                      <ul class="list-group card-text">
-                        <li class="list-group-item disabled">Not seeking employment</li>
-                        <li class="list-group-item">Workday Graduate Software Engineer<br/><span class="small">Beginning September 2023</span>                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-3 mx-auto">
-                      <a target="_blank" href="https://www.workday.com/en-us/company/careers/early-career.html"><img class="card-img rounded-circle p-3" src="./imgs/workday.png" alt="TUD"></a>
-                    </div>
-                  </div>
-                    <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/" class="btn btn-warning">Contact me</a>
-                  </div>
-              </div>
+
+            <div class="col-2 text-center">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
             </div>
-            <div class="col-sm-6 p-1">
-              <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Current Education Status</h5>
-                    <div class="row">
-                    <div class="col-9 mb-3">
-                      <ul class="list-group card-text">
-                        <li class="list-group-item disabled">Not seeking further education</li>
-                        <li class="list-group-item">Final year of studies<br/><span class="small">Graduating September 2023</span>                        </li>
-                      
-                    </div>
-                    <div class="col-3 mx-auto">
-                      <a target="_blank" href="https://www.tudublin.ie/study/undergraduate/courses/computing-general-entrytu859/"><img class="card-img rounded-circle p-3" src="./imgs/TUD.png" alt="TUD"></a>
-                    </div>
+
+            <div class="col-12">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Employment Status</h5>
+                        <div class="row">
+                        <div class="col-9 mb-3">
+                          <ul class="list-group card-text">
+                            <li class="list-group-item disabled">Not seeking employment</li>
+                            <li class="list-group-item">Currently in contract with Workday</li>
+                            <li class="list-group-item">Completed 6 month Internship Aug 2022</li>
+                            <li class="list-group-item">Will be returning to a Graduate Role in Sep 2023</li>
+
+                          </ul>
+                        </div>
+                        <div class="col-3 mx-auto">
+                          <a target="_blank" href="https://www.workday.com/en-us/company/careers/early-career.html"><img class="card-img rounded-circle p-3" src="./imgs/workday.png" alt="TUD"></a>
+                        </div>
+                      </div>
+                        <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/" class="btn btn-warning">Contact me</a>
+                      </div>
                   </div>
-                    <a href="#edu" class="btn btn-warning">More</a>
-            
-                </div>
-              
-                
-               
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Education Status</h5>
+                        <div class="row">
+                          <div class="col-9 mb-3">
+                            <ul class="list-group card-text">
+                              <li class="list-group-item disabled">Not seeking further education</li>
+                              <li class="list-group-item">BSc Computing with Software Development</li>
+                              <li class="list-group-item">Technological University Dublin - Tallaght Campus</li>
+                              <li class="list-group-item">Final year of studies</li>
+                          </div>
+                        <div class="col-3 mx-auto">
+                          <a target="_blank" href="https://www.tudublin.ie/study/undergraduate/courses/computing-general-entrytu859/"><img class="card-img rounded-circle p-3" src="./imgs/TUD.png" alt="TUD"></a>
+                        </div>
+                        </div>
+                        <a href="#edu" class="btn btn-warning">Read More</a>
+                    </div>
+                  </div>            
+                </div>   
               </div>
-            </div>
-            
             </div>
           </div>
+            <div class="col-2 text-center">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
         <!--Experience-->
           <small id="exp" class="text-dark">exp</small>
-          <h1 class="text-white text-center mt-5">Experience</h1>
+          <h1 class="text-muted mt-5 text-center">Experience</h1>
+          <div class="text-white text-center mt-5">
+            <h3>Tools & Technology</h3>
+          </div>
           <div class="row">
           <p>
             <div class="col-4 text-center">
@@ -188,11 +210,107 @@
                     <div class="col-3">
                       <img class="card-img" src="./imgs/NoSQL.jpg" alt="nosql" data-toggle="tooltip" data-placement="top" title="NoSQL Datatbases">
                     </div>
+                    <div class="col-3">
+                      <img class="card-img" src="./imgs/neo4j.png" alt="neo4j" data-toggle="tooltip" data-placement="top" title="Neo4J">
+                    </div>
                   </div>                  </div>
               </div>
             </div>
           </div>
-                <p>Experience...</p>
+          <div class="text-white text-center mt-5 col-8">
+            <h3>Languages</h3>
+          </div>
+          <div class="row text-white">
+            <div class="col-6">
+              <div class="row mt-3 ">
+                <div class="col-4 h5">
+                  Javascript
+                </div>
+                <div class="col-8">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="row">
+                <div class="col-4 h5">
+                  Python
+                </div>
+                <div class="col-8">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="row ">
+                <div class="col-4 h5">
+                  C#
+                </div>
+                <div class="col-8">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col-4 h5">
+                  C++
+                </div>
+                <div class="col-8">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 text-dark">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          
+          
+          
                 <p>Experience...</p>
                 <p>Experience...</p>
                 <p>Experience...</p>
