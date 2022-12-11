@@ -1,456 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./index.css">
-    <link href="https://fonts.cdnfonts.com/css/fredoka-one" rel="stylesheet">
-    <script src="./index.js"></script>
-    <script src="https://kit.fontawesome.com/1a9476a3f2.js" crossorigin="anonymous"></script>
-    <title>Rhys McCabe</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://fonts.cdnfonts.com/css/fredoka-one" rel="stylesheet">
+  <script src="./index.js"></script>
+  <script src="https://kit.fontawesome.com/1a9476a3f2.js" crossorigin="anonymous"></script>
+  <title>Rhys McCabe</title>
 </head>
+
 <body class="bg-dark">
-    <!--Heading-->
-    <div class="container">
-      <div class="row head-row text-white rounded-top py-3">
-        <div class="col-md-3 profile-img ms-5 mx-auto d-none d-lg-block">
-          <img src="./imgs/profile_img.JPG" alt="profile-img">
-        </div>
-        <div class="col-md-7 text-center px-5">
-          <p class="display-1">Rhys McCabe</p>
-          <p class="h5">
-            Software Developer
-          </p>
-        </div>
-        <!--Links-->
-        <div class="col-md-2 col-12 ms-md-5 text-center display-5">
-          <div class="row mb-2">
-            <div class="col-md-6 mx-auto col-5" data-toggle="tooltip" data-placement="top" title="LinkedIn">
-              <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/"><i class="fa-brands fa-linkedin text-dark icon rounded p-2"></i></a> 
-            </div>
-            <div class="col-md-6 mx-auto col-5" data-toggle="tooltip" data-placement="top" data-bs-toggle="modal" data-bs-target="#exampleModal" title="Email">
-              <a target="_blank"><i class="fa-solid fa-at text-dark icon rounded p-2"></i></a> 
-            </div>
-          </div>
-
-          <div class="row ">
-            <div class="col-md-6 mx-auto col-5" data-toggle="tooltip" data-placement="top" title="Github">
-              <a target="_blank" href="https://github.com/RhysMcCabe"><i class="icon rounded p-2 fa-brands fa-github text-dark"></i></a> 
-            </div>
-            <div class="col-md-6 mx-auto col-5" data-toggle="tooltip" data-placement="top" title="View resume">
-              <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/"><i class="icon rounded p-2 fa-solid fa-file text-dark"></i></a>            </div>
-            
-          </div>
-          
-        </div>
+  <!--Heading-->
+  <div class="container">
+    <div class="row head-row text-white rounded-top py-3">
+      <div class="col-md-3 profile-img ms-5 mx-auto d-none d-lg-block">
+        <img src="./imgs/profile_img.JPG" alt="profile-img">
       </div>
-
-      
-
-      <!--Navbar-->
-        <nav id="navbar-example2" class="navbar navs navbar-light bg-light px-3 mb-5 row sticky-md-top rounded-bottom text-center">
-          <ul class="nav">
-            <li class="nav-item col-md-3 col-12 rounded">
-              <a class="nav-link" href="#status">Status</a>
-            </li>
-            <li class="nav-item col-md-3 col-12 rounded">
-              <a class="nav-link" href="#exp">Experience</a>
-            </li>
-            <li class="nav-item col-md-3 col-12 rounded">
-              <a class="nav-link" href="#edu">Education</a>
-            </li>
-            <li class="nav-item col-md-3 col-12 rounded">
-              <a class="nav-link" href="#proj">Projects</a>
-            </li>
-          
-          </ul>
-        </nav>
-
-        
-    <!--Status-->   
-      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="text-white scrollspy-example" tabindex="0"> 
-        <small id="status" class="text-dark">status</small> 
-        <h1 class="text-center mt-5">Status</h1> 
-          <div class="row text-dark mb-5">
-
-            <div class="col-2 text-center">
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              </button>
-            </div>
-
-            <div class="col-12">
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Employment Status</h5>
-                        <div class="row">
-                        <div class="col-8 mx-auto my-3">
-                          <ul class="list-group card-text">
-                            <li class="list-group-item disabled">Not seeking employment</li>
-                            <li class="list-group-item">Currently in contract with Workday</li>
-                            <li class="list-group-item">Completed 6 month Internship Aug 2022</li>
-                            <li class="list-group-item">Will be returning to a Graduate Role in Sep 2023</li>
-                            <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/" class="btn btn-primary w-50 mx-auto mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" title="Email">Email</a>
-
-                          </ul>
-                        </div>
-                        <div class="col-3">
-                          <a target="_blank" href="https://www.workday.com/en-us/company/careers/early-career.html"><img class="card-img rounded-circle" src="./imgs/workday.png" alt="workday"></a>
-                        </div>
-                      </div>
-                      </div>
-                  </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Education Status</h5>
-                        <div class="row">
-                          <div class="col-8 mx-auto my-3">
-                            <ul class="list-group card-text">
-                              <li class="list-group-item disabled">Not seeking further education</li>
-                              <li class="list-group-item">BSc Computing with Software Development</li>
-                              <li class="list-group-item">Technological University Dublin - Tallaght Campus</li>
-                              <li class="list-group-item">Final year of studies</li>
-                              <a href="#edu" class="btn btn-primary w-50 mx-auto mt-4">Read More</a>
-                          </div>
-                          
-                        <div class="col-3">
-                          <a target="_blank" href="https://www.tudublin.ie/study/undergraduate/courses/computing-general-entrytu859/"><img class="card-img rounded-circle" src="./imgs/TUD.png" alt="TUD"></a>
-                        </div>
-                        </div>
-                        
-                    </div>
-                  </div>            
-                </div>   
-              </div>
-            </div>
-          </div>
-            <div class="col-2 text-center">
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!--Experience-->
-          <small id="exp" class="text-dark">exp</small>
-          <h1 class="text-white mt-5 text-center">Experience</h1>
-          
-          <div class="row">
-          <p>
-            <div class="col-md-4 col-12 p-1 text-center">
-              <a class="btn btn-warning w-100" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Front-End</a>
-            </div>
-            <div class="col-md-4 col-12 p-1 text-center">
-              <button class="btn btn-warning w-100" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Backend</button>
-            </div>
-            <div class="col-md-4 col-12 p-1 text-center">
-              <button class="btn btn-warning w-100" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample2">Database</button>
-            </div>
-          </p>
-        </div>
-          <div class="row">
-            <div class="col-md-4 col-12">
-              <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card card-body">
-                  <div class="row">
-                  <div class="col-3">
-                    <img class="card-img" src="./imgs/html-css.png" alt="html-css"data-toggle="tooltip" data-placement="top" title="HTML/CSS">
-                  </div>
-                  <div class="col-3">
-                    <img class="card-img" src="./imgs/tailwindcss.jpeg" alt="tailwind-css"data-toggle="tooltip" data-placement="top" title="TailwindCSS">
-                  </div>
-                  <div class="col-3">
-                    <img class="card-img" src="./imgs/react.png" alt="reactjs" width="200%" data-toggle="tooltip" data-placement="top" title="ReactJS">
-                  </div>
-                  <div class="col-3">
-                    <img class="card-img" src="./imgs/blazor.png" alt="blazor"mdata-toggle="tooltip" data-placement="top" title="dotnet-Blazor">
-                  </div>
-                </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-12 mt-1">
-              <div class="collapse multi-collapse" id="multiCollapseExample2">
-                <div class="card card-body">
-                  <div class="row">
-                    <div class="col-3">
-                      <img class="card-img" src="./imgs/python.png" alt="pyton" data-toggle="tooltip" data-placement="top" title="Python3+">
-                    </div>
-                    <div class="col-3">
-                      <img class="card-img" src="./imgs/java.png" alt="java" data-toggle="tooltip" data-placement="top" title="Java">
-                    </div>
-                    <div class="col-3">
-                      <img class="card-img" src="./imgs/dotnet.png" alt="dotnet" data-toggle="tooltip" data-placement="top" title="Dontnet">
-                    </div>
-                    <div class="col-3">
-                      <img class="card-img" src="./imgs/nodejs.png" alt="nodejs" data-toggle="tooltip" data-placement="top" title="NodeJS">
-                    </div>
-                  </div>                
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 col-12 mt-1">
-              <div class="collapse multi-collapse" id="multiCollapseExample3">
-                <div class="card card-body">
-                  <div class="row">
-                    <div class="col-3">
-                      <img class="card-img" src="./imgs/mongo.png" alt="mongo" data-toggle="tooltip" data-placement="top" title="MongoDB">
-                    </div>
-                    <div class="col-3">
-                      <img class="card-img" src="./imgs/swl.jpg" alt="SQL" data-toggle="tooltip" data-placement="top" title="SQL Databases">
-                    </div>
-                    <div class="col-3">
-                      <img class="card-img" src="./imgs/NoSQL.jpg" alt="nosql" data-toggle="tooltip" data-placement="top" title="NoSQL Datatbases">
-                    </div>
-                    <div class="col-3">
-                      <img class="card-img" src="./imgs/neo4j.png" alt="neo4j" data-toggle="tooltip" data-placement="top" title="Neo4J">
-                    </div>
-                  </div>                  </div>
-              </div>
-            </div>
-          </div>
-         
-          <div class="row text-white mt-5">
-            <div class="col-md-6">
-              <div class="row mt-3 py-5">
-                <div class="col-4 h5">
-                  Javascript
-                </div>
-                <div class="col-md-8">
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="row py-5">
-                <div class="col-4 h5">
-                  Python
-                </div>
-                <div class="col-md-8">
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="row py-5">
-                <div class="col-4 h5">
-                  C#
-                </div>
-                <div class="col-md-8">
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row py-5">
-                <div class="col-4 h5">
-                  C++
-                </div>
-                <div class="col-md-8">
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 mt-5 text-dark">
-              <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      
-                      <div class="row">
-                        <div class="col-2">
-                    <img class="card-img rounded-circle" src="./imgs/workday.png" alt="workday">
-                        </div>
-                        <div class="col-10 h4 mt-3">
-                          <p>Workday</p>
-                        </div>
-                      </div>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                    <div class="accordion-body">
-                      <p>Completed a 6 month internship in August 2022. I was integrated into a development team in Financials (Spend Management).</p>
-                      <p>I recieved training for Workday's proprietary systems, solved daily issues and participated in team meetings.</p>
-                      More information can be found in my resume <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/">here</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                    <button class="accordion-button collapsed text-info" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                      <div class="row">
-                        <div class="col-6">
-                        <img class="card-img rounded-circle" src="./imgs/gbc.png" alt="gbc">
-                        </div>
-                        
-                      </div>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                    <div class="accordion-body">
-                      <p>Part time, I am working with a client who wishes to transform their <a target="_blank" href="https://www.greystonesbouncycastles.com/">static website</a>, to an automated booking system. The system is close to production and will launch in March 2023.</p>     
-                      <p>The application is being built using a MERN stack:</p>
-                      <ul>
-                        <li>
-                          (M)ongoDB - Database
-                        </li>
-                        <li>
-                          (E)xpressJS - Web-app framework
-                        </li>
-                        <li>
-                          (R)eactJS - Client-side
-                        </li>
-                        <li>
-                          (N)odeJS - Javascript Runtime
-                        </li>
-                      </ul>
-                      More information can be found in my resume <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/">here</a>
-                      </div>
-                                        </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      <div class="row">
-                        <div class="col-3">
-                    <img class="card-img rounded-circle" src="./imgs/centra.jpg" alt="cengra">
-                        </div>
-                        <div class="col-8 h3 mt-3">
-                          <p>Centra</p>
-                        </div>
-                      </div>
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body">
-                      <p>Before returning to education, I worked full-time in Salmon's Centra Naas. <br/>I joined at 19 years old as a till operator. I worked my way up to supervisor, trainee manager and assistant manager.</p>
-                      <p>I decided to step down as assistant manager to pursue a career in software engineering. I stayed on as a weekend supervisor until I recieved an offer from Workday for an Internship. I was with the company from Feb 2015 - Nov 2021 (almost 7 years).</p>
-                      More information can be found in my resume <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/">here</a>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-
-          
-          
-          
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-                <p>Experience...</p>
-
-                <small id="edu" class="text-dark">edu</small>
-          <h1 class="mt-5 text-white">Education</h1>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-          <p>Education....</p>
-
-          <small id="proj" class="text-dark">proj</small>
-          <h1 class="text-white mt-5">Projects</h1>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-          <p>Projects...</p>
-
-                
-      </div>
-
-    
-  </div>
-     <!-- Email Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact me</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p id="email">
-          rhys.mccabe@hotmail.com
+      <div class="col-md-7 text-center px-5">
+        <p class="display-1">Rhys McCabe</p>
+        <p class="h5">
+          Software Developer
         </p>
-        
       </div>
-      <div class="modal-footer">
-        <button type="button" data-bs-dismiss="modal" onclick="copyEmail()" class="btn btn-primary">Copy to Clipboard</button>
+      <!--Links-->
+      <div class="col-md-2 col-12 ms-md-5 text-center display-5">
+        <div class="row mb-2">
+          <div class="col-md-6 mx-auto col-5" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+            <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/"><i
+                class="fa-brands fa-linkedin text-dark icon rounded p-2"></i></a>
+          </div>
+          <div class="col-md-6 mx-auto col-5" data-toggle="tooltip" data-placement="top" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" title="Email">
+            <a target="_blank"><i class="fa-solid fa-at text-dark icon rounded p-2"></i></a>
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="col-md-6 mx-auto col-5" data-toggle="tooltip" data-placement="top" title="Github">
+            <a target="_blank" href="https://github.com/RhysMcCabe"><i
+                class="icon rounded p-2 fa-brands fa-github text-dark"></i></a>
+          </div>
+          <div class="col-md-6 mx-auto col-5" data-toggle="tooltip" data-placement="top" title="View resume">
+            <a target="_blank"
+              href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/"><i
+                class="icon rounded p-2 fa-solid fa-file text-dark"></i></a>
+          </div>
+
+        </div>
+
       </div>
     </div>
+
+
+
+    <!--Navbar-->
+    <nav id="navbar-example2"
+      class="navbar navs navbar-light bg-light px-3 mb-5 row sticky-md-top rounded-bottom text-center">
+      <ul class="nav">
+        <li class="nav-item col-md-3 col-12 rounded">
+          <a class="nav-link" href="#status">Status</a>
+        </li>
+        <li class="nav-item col-md-3 col-12 rounded">
+          <a class="nav-link" href="#exp">Experience</a>
+        </li>
+        <li class="nav-item col-md-3 col-12 rounded">
+          <a class="nav-link" href="#edu">Education</a>
+        </li>
+        <li class="nav-item col-md-3 col-12 rounded">
+          <a class="nav-link" href="#proj">Projects</a>
+        </li>
+
+      </ul>
+    </nav>
+
+
+    <!--Status-->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="text-white scrollspy-example"
+      tabindex="0">
+      <small id="status" class="text-dark">status</small>
+      <h1 class="text-center mt-5">Status</h1>
+      <div class="row text-dark mb-5">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Employment</h5>
+                    <div class="row">
+                      <div class="col-md-2 col-3 mx-auto">
+                        <a target="_blank" href="https://www.workday.com/en-us/company/careers/early-career.html"><img
+                            class="card-img rounded-circle" src="./imgs/workday.png" alt="workday"></a>
+                      </div>
+                      <div class="col-md-6 mx-auto my-3">
+
+                        <ul class="list-group card-text">
+                          <li class="list-group-item disabled">Not seeking employment</li>
+                          <li class="list-group-item">Currently in contract with Workday</li>
+                          <li class="list-group-item">Completed 6 month Internship Aug 2022</li>
+                          <li class="list-group-item">Will be returning to a Graduate Role in Sep 2023</li>
+                          <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/"
+                            class="btn btn-primary w-50 mx-auto mt-4" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" title="Email">Email</a>
+
+                        </ul>
+                      </div>
+
+                      <div class="col-md-2 d-md-block d-none">
+                        <a target="_blank" href="https://www.workday.com/en-us/company/careers/early-career.html"><img
+                            class="card-img rounded-circle" src="./imgs/workday.png" alt="workday"></a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Education</h5>
+                    <div class="row">
+                      <div class="col-md-2 col-3 mx-auto">
+                        <a target="_blank"
+                          href="https://www.tudublin.ie/study/undergraduate/courses/computing-general-entrytu859/"><img
+                            class="card-img rounded-circle" src="./imgs/TUD.png" alt="TUD"></a>
+                      </div>
+                      <div class="col-md-6 mx-auto my-3">
+
+                        <ul class="list-group card-text">
+                          <li class="list-group-item disabled">Not seeking further education</li>
+                          <li class="list-group-item">BSc Computing with Software Development</li>
+                          <li class="list-group-item">Technological University Dublin</li>
+                          <li class="list-group-item">Final year of studies</li>
+                          <a href="#edu" class="btn btn-primary w-50 mx-auto mt-4">Read More</a>
+                      </div>
+
+                      <div class="col-md-2 d-md-block d-none">
+                        <a target="_blank"
+                          href="https://www.tudublin.ie/study/undergraduate/courses/computing-general-entrytu859/"><img
+                            class="card-img rounded-circle" src="./imgs/TUD.png" alt="TUD"></a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+    <!--Experience-->
+    <small id="exp" class="text-dark">exp</small>
+    <h1 class="text-white mt-5 text-center">Experience</h1>
+
+
+
+    <!--Learning progress-->
+    <div class="row text-white mt-5">
+      <div class="col-md-6">
+        <div class="row mt-3 py-4">
+          <div class="col-4 h5">
+            Javascript
+          </div>
+          <div class="col-md-8">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row py-4">
+          <div class="col-4 h5">
+            Python
+          </div>
+          <div class="col-md-8">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar"
+                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row py-4">
+          <div class="col-4 h5">
+            C#
+          </div>
+          <div class="col-md-8">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row py-4">
+          <div class="col-4 h5">
+            C++
+          </div>
+          <div class="col-md-8">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar"
+                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                style="width: 50%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Places of work-->
+      <div class="col-md-6 mt-3 text-dark">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button text-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+
+                <div class="row">
+                  <div class="col-2">
+                    <img class="card-img rounded-circle" src="./imgs/workday.png" alt="workday">
+                  </div>
+                  <div class="col-10 h4 mt-3">
+                    <p>Workday</p>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <p>Completed a 6 month internship in August 2022. I was integrated into a development team in Financials
+                  (Spend Management).</p>
+                <p>I recieved training for Workday's proprietary systems, solved daily issues and participated in team
+                  meetings.</p>
+                More information can be found in my resume <a target="_blank"
+                  href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/">here</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed text-info" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                <div class="row">
+                  <div class="col-6">
+                    <img class="card-img rounded-circle" src="./imgs/gbc.png" alt="gbc">
+                  </div>
+
+                </div>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <p>Part time, I am working with a client who wishes to transform their <a target="_blank"
+                    href="https://www.greystonesbouncycastles.com/">static website</a>, to an automated booking system.
+                  The system is close to production and will launch in March 2023.</p>
+                <p>The application is being built using a MERN stack:</p>
+                <ul>
+                  <li>
+                    (M)ongoDB - Database
+                  </li>
+                  <li>
+                    (E)xpressJS - Web-app framework
+                  </li>
+                  <li>
+                    (R)eactJS - Client-side
+                  </li>
+                  <li>
+                    (N)odeJS - Javascript Runtime
+                  </li>
+                </ul>
+                More information can be found in my resume <a target="_blank"
+                  href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/">here</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed text-warning" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                <div class="row">
+                  <div class="col-3">
+                    <img class="card-img rounded-circle" src="./imgs/centra.jpg" alt="cengra">
+                  </div>
+                  <div class="col-8 h3 mt-3">
+                    <p>Centra</p>
+                  </div>
+                </div>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <p>Before returning to education, I worked full-time in Salmon's Centra Naas. <br />I joined at 19 years
+                  old as a till operator. I worked my way up to supervisor, trainee manager and assistant manager.</p>
+                <p>I decided to step down as assistant manager to pursue a career in software engineering. I stayed on
+                  as a weekend supervisor until I recieved an offer from Workday for an Internship. I was with the
+                  company from Feb 2015 - Nov 2021 (almost 7 years).</p>
+                More information can be found in my resume <a target="_blank"
+                  href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/">here</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Collapse Exp-->
+    <div class="row">
+      <p>
+      <div class="col-md-4 col-12 p-1 text-center">
+        <a class="btn btn-warning w-100" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+          aria-expanded="false" aria-controls="multiCollapseExample1">Front-End</a>
+      </div>
+      <div class="col-md-4 col-12 p-1 text-center">
+        <button class="btn btn-warning w-100" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample2" aria-expanded="false"
+          aria-controls="multiCollapseExample2">Backend</button>
+      </div>
+      <div class="col-md-4 col-12 p-1 text-center">
+        <button class="btn btn-warning w-100" type="button" data-bs-toggle="collapse"
+          data-bs-target="#multiCollapseExample3" aria-expanded="false"
+          aria-controls="multiCollapseExample2">Database</button>
+      </div>
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-12">
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card card-body">
+            <div class="row">
+              <div class="col-3">
+                <img class="card-img" src="./imgs/html-css.png" alt="html-css" data-toggle="tooltip"
+                  data-placement="top" title="HTML/CSS">
+              </div>
+              <div class="col-3">
+                <img class="card-img" src="./imgs/tailwindcss.jpeg" alt="tailwind-css" data-toggle="tooltip"
+                  data-placement="top" title="TailwindCSS">
+              </div>
+              <div class="col-3">
+                <img class="card-img" src="./imgs/react.png" alt="reactjs" width="200%" data-toggle="tooltip"
+                  data-placement="top" title="ReactJS">
+              </div>
+              <div class="col-3">
+                <img class="card-img" src="./imgs/blazor.png" alt="blazor" mdata-toggle="tooltip" data-placement="top"
+                  title="dotnet-Blazor">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 mt-1">
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card card-body">
+            <div class="row">
+              <div class="col-3">
+                <img class="card-img" src="./imgs/python.png" alt="pyton" data-toggle="tooltip" data-placement="top"
+                  title="Python3+">
+              </div>
+              <div class="col-3">
+                <img class="card-img" src="./imgs/java.png" alt="java" data-toggle="tooltip" data-placement="top"
+                  title="Java">
+              </div>
+              <div class="col-3">
+                <img class="card-img" src="./imgs/dotnet.png" alt="dotnet" data-toggle="tooltip" data-placement="top"
+                  title="Dontnet">
+              </div>
+              <div class="col-3">
+                <img class="card-img" src="./imgs/nodejs.png" alt="nodejs" data-toggle="tooltip" data-placement="top"
+                  title="NodeJS">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-12 mt-1">
+        <div class="collapse multi-collapse" id="multiCollapseExample3">
+          <div class="card card-body">
+            <div class="row">
+              <div class="col-3">
+                <img class="card-img" src="./imgs/mongo.png" alt="mongo" data-toggle="tooltip" data-placement="top"
+                  title="MongoDB">
+              </div>
+              <div class="col-3">
+                <img class="card-img" src="./imgs/swl.jpg" alt="SQL" data-toggle="tooltip" data-placement="top"
+                  title="SQL Databases">
+              </div>
+              <div class="col-3">
+                <img class="card-img" src="./imgs/NoSQL.jpg" alt="nosql" data-toggle="tooltip" data-placement="top"
+                  title="NoSQL Datatbases">
+              </div>
+              <div class="col-3">
+                <img class="card-img" src="./imgs/neo4j.png" alt="neo4j" data-toggle="tooltip" data-placement="top"
+                  title="Neo4J">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small id="edu" class="text-dark">edu</small>
+    <h1 class="mt-5 text-white">Education</h1>
+    <div class="col-6">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              3rd Level
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the first item's accordion body.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              2nd Level
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+              <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+              filled with some actual content.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <small id="proj" class="text-dark">proj</small>
+    <h1 class="text-white mt-5">Projects</h1>
   </div>
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </div>
+  <!-- Email Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Contact me</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p id="email">
+            rhys.mccabe@hotmail.com
+          </p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-bs-dismiss="modal" onclick="copyEmail()" class="btn btn-primary">Copy to
+            Clipboard</button>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
 
 </body>
+
 </html>
