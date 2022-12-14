@@ -1,51 +1,50 @@
 body {
     font-family: 'Fredoka One', sans-serif;
+    padding-bottom: 200px;
 }
 
 
-.profile-img{
+.profile-img {
 
-    position: relative; 
-    width: 150px; 
-    height: 150px; 
-    overflow: hidden; 
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
     border-radius: 50%;
-    
+
 }
 
 .profile-img img {
-     width: 140%; 
-     height: auto; 
-     margin-left: -10px;
-     margin-top: -50px;
-    }
-
-.head-row{
-    background-color: rgb(175,122,56);
+    width: 140%;
+    height: auto;
+    margin-left: -10px;
+    margin-top: -50px;
 }
 
-.navs > ul > li:hover  {
-    background-color: rgb(175,122,56);
-    
+.head-row {
+    background-color: rgb(175, 122, 56);
+}
+
+.navs>ul>li:hover {
+    background-color: rgb(175, 122, 56);
+
 }
 
 
-.nav-link{
-   color: black;
+.nav-link {
+    color: black;
 }
 
-.nav-link:hover{    
+.nav-link:hover {
     color: white;
 }
 
 
-.icon:hover{
+.icon:hover {
     background-color: white;
 
 }
 
-.card-body img:hover{
+.card-body img:hover {
     opacity: 90%;
 }
-
-
