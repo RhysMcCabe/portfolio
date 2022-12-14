@@ -1,6 +1,6 @@
 body {
     font-family: 'Fredoka One', sans-serif;
-    padding-bottom: 200px;
+
 }
 
 
@@ -47,4 +47,8 @@ body {
 
 .card-body img:hover {
     opacity: 90%;
+}
+
+.footer {
+    margin-top: 550px;
 }
