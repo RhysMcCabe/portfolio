@@ -45,3 +45,18 @@ body {
   margin-top: 250px;
   background-color: rgb(175, 122, 56);
 }
+
+.fball {
+  background-color: rgb(52, 139, 189);
+}
+
+.travel {
+  background-color: rgb(74, 107, 180);
+}
+
+.tech {
+  background-color: rgb(143, 230, 72);
+}
+.music {
+  background-color: rgb(156, 41, 41);
+}
