@@ -19,7 +19,7 @@
 
     <!--Heading-->
     <div class="row head-row text-white rounded-top py-3 border border-warning">
-      <div class="col-lg-3 profile-img ms-5 mx-auto d-none d-lg-block">
+      <div class="col-lg-3 profile-img ms-5 mx-auto d-none d-lg-block border border-warning">
         <img src="./imgs/profile_img.JPG" alt="profile-img">
       </div>
       <div class="col-lg-7 px-5">
@@ -34,14 +34,14 @@
         </p>
 
         <div class="row ms-lg-5 text-lg-start">
-          <div class="col-lg-8 h5">
+          <div class="col-lg-7 h5">
             <p class="ms-lg-5 text-lg-start text-center">
               Software Developer
             </p>          
           </div>
-          <div class="col-lg-4 h5">
+          <div class="col-lg-5 h5">
             <p class="me-lg-5 text-lg-start text-center">
-              <i class="fa-solid fa-location-dot"></i> Dublin
+              <i class="fa-solid fa-location-dot"></i> Dublin, Ireland
             </p>
             
           </div>
@@ -66,8 +66,8 @@
           </div>
           <div class="col-lg-6 p-2 mx-auto col-2" data-toggle="tooltip" data-placement="top" title="View resume">
             <a target="_blank"
-              href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/"><i
-                class="icon rounded-pill p-2 fa-solid fa-file text-dark"></i></a>
+              href="https://1drv.ms/b/s!AifzEGJwKHbFpmQlWtrpAktqgQH9?e=AzJwVt">
+                <i class="icon rounded-pill fa-solid fa-file-pdf text-dark p-2"></i></a>
           </div>
 
         </div>
@@ -109,7 +109,7 @@
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="text-white scrollspy-example"
       tabindex="0">
       <small id="status" class="text-dark">status</small>
-      <h1 class="text-center display-3 mt-2">Status</h1>
+      <h1 class="text-center display-4 mt-5">Status</h1>
       <div class="row text-dark mb-5">
         <div class="col-lg-10 mx-auto">
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -126,10 +126,10 @@
                       <div class="col-md-6 mx-auto my-3">
 
                         <ul class="list-group card-text">
-                          <li class="list-group-item disabled">Not seeking employment</li>
-                          <li class="list-group-item">Currently in contract with Workday</li>
-                          <li class="list-group-item">Completed 6 month Internship Aug 2022</li>
-                          <li class="list-group-item">Will be returning to a Graduate Role in Sep 2023</li>
+                          <li class="list-group-item">Not seeking employment</li>
+                          <li class="list-group-item disabled">Currently in contract with Workday</li>
+                          <li class="list-group-item disabled">Completed 6 month Internship Aug 2022</li>
+                          <li class="list-group-item disabled">Will be returning to a Graduate Role in Sep 2023</li>
                           <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/"
                             class="btn btn-primary rounded-pill w-50 mx-auto mt-4" data-bs-toggle="modal"
                             data-bs-target="#exampleModal" title="Email">Email</a>
@@ -159,10 +159,10 @@
                       <div class="col-md-6 mx-auto my-3">
 
                         <ul class="list-group card-text">
-                          <li class="list-group-item disabled">Not seeking further education</li>
-                          <li class="list-group-item">BSc Computing with Software Development</li>
-                          <li class="list-group-item">Technological University Dublin - Tallaght</li>
-                          <li class="list-group-item">Final year of studies</li>
+                          <li class="list-group-item">Not seeking further education</li>
+                          <li class="list-group-item disabled">BSc Computing with Software Development</li>
+                          <li class="list-group-item disabled">Technological University Dublin - Tallaght</li>
+                          <li class="list-group-item disabled">Final year of studies</li>
                           <a href="#edu" class="btn btn-primary w-50 mx-auto mt-4 rounded-pill">Read More</a>
                       </div>
 
@@ -354,7 +354,7 @@
                   <div class="col-2">
                     <img class="card-img rounded-circle" src="./imgs/workday.png" alt="workday">
                   </div>
-                  <div class="col-10 h4 mt-3">
+                  <div class="col-10 h3 mt-3 text-primary">
                     <p>Workday</p>
                   </div>
                 </div>
@@ -377,7 +377,7 @@
                   <div class="col-3">
                     <img class="card-img rounded-circle" src="./imgs/centra.jpg" alt="cengra">
                   </div>
-                  <div class="col-8 h3 mt-3">
+                  <div class="col-8 h3 mt-3 text-warning">
                     <p>Centra</p>
                   </div>
                 </div>
@@ -438,9 +438,9 @@
 
 
     <!--Education-->
-    <small id="edu" class="text-dark">edu</small>
-    <h1 class="mt-5 text-white text-center">Education</h1>
-    <div class="col-lg-12 mt-5 text-dark">
+    <div class="col-lg-6 mt-5 text-dark">
+      <small id="edu" class="text-dark">edu</small>
+      <h1 class="mt-5 text-white text-center">Education</h1>
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item mt-1 border border-warning rounded">
           <h2 class="accordion-header" id="flush-heading1">
@@ -665,6 +665,42 @@
         </div>
       </div>
     </div>
+    <div class="col-lg-6 mt-5">
+      <small id="skills" class="text-dark">skills</small>
+      <h1 class="mt-5 text-white text-center">Skills</h1>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Software Design
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Databases
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--Projects-->
     <small id="proj" class="text-dark">proj</small>
@@ -682,8 +718,60 @@
               can
               then choose from a list of bids, who they would like to do the job.<br />
               Users are rated and have public reviews.</p>
-            <p class="card-text"></p>
-          </div>
+              <div class="accordion accordion-flush col-10 mx-auto" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSG1">
+                    <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSG1" aria-expanded="false" aria-controls="flush-collapseSG1">
+                      Technical Description
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSG1" class="accordion-collapse collapse" aria-labelledby="flush-headingSG1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">This project will be seperated into different services for scalability. Firstly, a RESTful API that will serve any front-end that is developed. The stateless backend will
+                      run on NodeJS / ExpressJS server on a Google Cloud Run Container Service.<br/>
+                      I am also developing a front-end with React for desktop and mobile support. We can then develop this futher for native iOS / Android support.
+                      
+                      </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSG2">
+                    <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSG2" aria-expanded="false" aria-controls="flush-collapseSG2">
+                      Technologies & Tools
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSG2" class="accordion-collapse collapse" aria-labelledby="flush-headingSG2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                     <ul class="row">
+                       <li class="col-lg-4">MongoDB</li>
+                       <li class="col-lg-4">ExpressJS</li>
+                       <li class="col-lg-4">ReactJS</li>
+                       <li class="col-lg-4">NodeJS</li>
+                       <li class="col-lg-4">Google Cloud</li>
+                       <li class="col-lg-4">Firebase</li>
+                     </ul></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSG3">
+                    <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSG3" aria-expanded="false" aria-controls="flush-collapseSG3">
+                      Challenges
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSG3" class="accordion-collapse collapse" aria-labelledby="flush-headingSG3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><ul>
+                      <li>
+                        I was unfamiliar with most of the technology that I used. I had to research as I developed. 
+                      </li>
+                      <li>
+                        I would discover better methods to solving a problem in the future and it would require me to revisit those solutions to improve them.
+
+                      </li>
+                    </ul> 
+                      </div>
+                  </div>
+                </div>
+              </div>
+              </div>
         </div>
       </div>
       <div class="col-lg-6">
@@ -695,8 +783,60 @@
                 href="https://www.greystonesbouncycastles.com">GreystonesBouncyCastles.com</a><br /><br />They wish to
               turn
               their static information site to a automated booking system that can track stock
-              and give reports on deliveries / collections.<br />This is due to launch in March 2023</p>
-            <p class="card-text"></p>
+              and give reports on deliveries / collections.<br />This is due to launch in March 2023.</p>
+              <div class="accordion accordion-flush col-10 mx-auto" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingGBC1">
+                    <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGBC1" aria-expanded="false" aria-controls="flush-collapseGBC1">
+                      Technical Description
+                    </button>
+                  </h2>
+                  <div id="flush-collapseGBC1" class="accordion-collapse collapse" aria-labelledby="flush-headingGBC1" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">I used a MERN stack to get some experience with technologies I am not familiar with, particularly with React. 
+                      I also developed a CI/CD pipeline with Azure to automate the build and deploy process.
+                      <br/>I now feel confident using React and some libraries such as JSON Web Tokens(jwt) for data transfer authentication or other crypto libraries for data encryption. 
+                      This project has also immensely increased my JavaScript proficiency.
+                      
+                      </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingGBC2">
+                    <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGBC2" aria-expanded="false" aria-controls="flush-collapseGBC2">
+                      Technologies & Tools
+                    </button>
+                  </h2>
+                  <div id="flush-collapseGBC2" class="accordion-collapse collapse" aria-labelledby="flush-headingGBC2" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                     <ul class="row">
+                       <li class="col-lg-4">MongoDB</li>
+                       <li class="col-lg-4">ExpressJS</li>
+                       <li class="col-lg-4">ReactJS</li>
+                       <li class="col-lg-4">NodeJS</li>
+                       <li class="col-lg-4">Azure</li>
+                     </ul></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingGBC3">
+                    <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGBC3" aria-expanded="false" aria-controls="flush-collapseGBC3">
+                      Challenges
+                    </button>
+                  </h2>
+                  <div id="flush-collapseGBC3" class="accordion-collapse collapse" aria-labelledby="flush-headingGBC3" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><ul>
+                      <li>
+                        I was unfamiliar with most of the technology that I used. I had to research as I developed. 
+                      </li>
+                      <li>
+                        I would discover better methods to solving a problem in the future and it would require me to revisit those solutions to improve them.
+
+                      </li>
+                    </ul> 
+                      </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -712,7 +852,7 @@
               to track food, workouts etc. We developed a dashboard for users to see their progress via graphs / charts
               (using jQuery). <br /><br />You can find the source code <a target="_blank"
                 href="https://github.com/RhysMcCabe/school_message_board">here</a></p>
-            <p class="card-text"></p>
+
           </div>
         </div>
       </div>
@@ -726,7 +866,7 @@
               participate in discussions in different categories, create to-do lists, purchase merchandise from the
               store, or play some retro games like classic Snake (using Pygame). <br /><br />You can find the source
               code <a target="_blank" href="https://github.com/RhysMcCabe/school_message_board">here</a></p>
-            <p class="card-text"></p>
+
           </div>
         </div>
       </div>
@@ -843,13 +983,26 @@
         </div>
       </div>
     </div>
+
+    <!--About me-->
     <small id="abt" class="text-dark">status</small>
     <div class="row">
-      <div class="col">
-        <div class="h1 mt-5 text-center"><p>About Me</p></div>
-      </div>
+        <div class="h1 mt-5 text-center">
+          <p>About Me</p>
+        </div>
+          <div class="col-lg-3 border border-warning profile-img mx-auto mt-2">
+            <img src="./imgs/profile_img.JPG" alt="profile-img">
+          </div>
+          <div class="col-lg-10 fw-lighter mt-2 ms-3">
+            <p>I am a highly motivated self-driven person. Would be interested in offers for a graduate program or junior role in software development, testing and operations to assist my development as a software developer. I have experience working in a team environment from my time in the retail industry as well as a 6-month internship with Workday.
+              <br/>This has developed many of my skills such as communication, teamwork, and man management. I also have worked in numerous group projects and assignments during my course that have developed my technical ability. I am hoping to gain valuable insight into the industry while making a positive impact for your organization.
+              </p>
+          </div>
+
+        
     </div>
-    <footer class="text-center border border-warning rounded-pill row text-dark w-75 mx-auto footer pt-2">
+
+    <footer class="text-center border border-warning rounded-pill row text-dark w-75 mx-auto mb-1 footer pt-2">
       <div class="col-3 h3" data-toggle="tooltip" data-placement="top" title="LinkedIn">
         <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/"><i
             class="fa-brands fa-linkedin text-dark icon rounded-pill p-2"></i></a>
@@ -863,7 +1016,7 @@
             class="icon rounded-pill p-2 fa-brands fa-github text-dark"></i></a>
       </div>
       <div class="col-3 h3" data-toggle="tooltip" data-placement="top" title="Resume">
-        <a target="_blank" href="https://www.linkedin.com/in/rhys-mccabe/overlay/1635509712294/single-media-viewer/"><i
+        <a target="_blank" href="https://1drv.ms/b/s!AifzEGJwKHbFpmQlWtrpAktqgQH9?e=AzJwVt"><i
             class="icon rounded-pill p-2 fa-solid fa-file text-dark"></i></a>
       </div>
     </footer>
